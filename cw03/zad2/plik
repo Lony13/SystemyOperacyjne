@@ -1,0 +1,14 @@
+#TestFile ./ala.txt
+#Zmienna1 wartosc1
+#Zmienna2 wartosc2
+#Zmienna2
+./printEnv Zmienna1
+pwd
+./printEnv TestFile
+#Zmienna3 wartosc3
+#Zmienna3
+ls -l -a
+cp plik plikCopy
+./infiniteLoop
+./printEnv Zmienna3
+#TestFile

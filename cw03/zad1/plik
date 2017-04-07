@@ -1,0 +1,15 @@
+#TestFile ./ala.txt
+#Zmienna1 wartosc1
+#Zmienna2 wartosc2
+clear
+#Zmienna2
+./printEnv Zmienna1
+pwd
+./printEnv TestFile
+#Zmienna3 wartosc3
+#Zmienna3
+ls -l -a
+cp plik plikCopy
+ls -l -a
+./printEnv Zmienna3
+#TestFile
