@@ -1,0 +1,24 @@
+W linijce 108, podczas wywolywania funkcji
+deleteElementFromTree(), zamiast tree -> root
+podalem tree -> root -> parent co jest na pewno 
+rowne NULL.
+
+By odnalezc blad uzylem gdb.
+Wywolalem komende:
+gdb ./main
+Nastepnie komenda:
+run
+Wtedy moglem juz zobaczyc:
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401af6 in deleteElementFromTree ()
+Missing separate debuginfos, use: debuginfo-install glibc-2.12-1.166.el6_7.3.x86_64
+
+Wpisalem wiec komende:
+backtrace
+
+I otrzymalem:
+#0  0x0000000000401af6 in deleteElementFromTree ()
+#1  0x0000000000400dfb in main () at main.c:108
+
+Skad juz mozna wywnioskowac ze blad wystepuje w
+linijce 108 podczas uzywania funkcji deleteElementFromTree()

@@ -1,0 +1,90 @@
+Statyczna:
+Tworzenie ksiazki adresowej (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Dodanie pojedynczego elementu (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu optymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu pesymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie optymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie pesymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Sortowanie/Przebudowanie (lista)
+Real Time: 0.000002  User Time: 0.000002  System Time: 0.000000  
+
+Tworzenie ksiazki adresowej (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Dodanie pojedynczego elementu (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu optymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu pesymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie optymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie pesymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Sortowanie/Przebudowanie (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Dzielona:
+Tworzenie ksiazki adresowej (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Dodanie pojedynczego elementu (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu optymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu pesymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie optymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie pesymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Sortowanie/Przebudowanie (lista)
+Real Time: 0.000003  User Time: 0.000003  System Time: 0.000000  
+
+Tworzenie ksiazki adresowej (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Dodanie pojedynczego elementu (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu optymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu pesymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie optymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie pesymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Sortowanie/Przebudowanie (drzewo)
+Real Time: 0.000001  User Time: 0.000001  System Time: 0.000000  
+Dynamiczna:
+Tworzenie ksiazki adresowej (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Dodanie pojedynczego elementu (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu optymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu pesymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie optymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie pesymistyczne (lista)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Sortowanie/Przebudowanie (lista)
+Real Time: 0.000003  User Time: 0.000003  System Time: 0.000000  
+
+Tworzenie ksiazki adresowej (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Dodanie pojedynczego elementu (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu optymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Usuwanie kontaktu pesymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie optymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Wyszukiwanie pesymistyczne (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
+Sortowanie/Przebudowanie (drzewo)
+Real Time: 0.000000  User Time: 0.000000  System Time: 0.000000  
