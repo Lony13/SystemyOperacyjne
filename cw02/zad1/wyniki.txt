@@ -1,0 +1,193 @@
+Rozmiar rekordu 4:
+Liczba rekordow 2000:
+
+Generowanie:
+user    0m0.001s
+sys     0m0.022s
+
+Sortowanie Sys:
+user    0m0.838s
+sys     0m5.976s
+
+Sortowanie Lib:
+user    0m1.306s
+sys     0m4.423s
+
+Permutacja Sys:
+user    0m0.002s
+sys     0m0.008s
+
+Permutacja Lib:
+user    0m0.002s
+sys     0m0.012s
+-----------------------------
+
+Rozmiar rekordu 4:
+Liczba rekordow 4000:
+
+Generowanie:
+user    0m0.004s
+sys     0m0.039s
+
+Sortowanie Sys:
+user    0m2.991s
+sys     0m26.835s
+
+Sortowanie Lib:
+user    0m5.523s
+sys     0m19.172s
+
+Permutacja Sys:
+user    0m0.001s
+sys     0m0.017s
+
+Permutacja Lib:
+user    0m0.005s
+sys     0m0.019s
+-----------------------------
+
+Rozmiar rekordu 512:
+Liczba rekordow 2000:
+
+Generowanie:
+user    0m0.097s
+sys     0m2.358s
+
+Sortowanie Sys:
+user    0m0.714s
+sys     0m7.469s
+
+Sortowanie Lib:
+user    0m2.271s
+sys     0m9.069s
+
+Permutacja Sys:
+user    0m0.001s
+sys     0m0.010s
+
+Permutacja Lib:
+user    0m0.003s
+sys     0m0.015s
+-----------------------------
+
+Rozmiar rekordu 512:
+Liczba rekordow 3000:
+
+Generowanie:
+user    0m0.112s
+sys     0m3.521s
+
+Sortowanie Sys:
+user    0m1.629s
+sys     0m15.984s
+
+Sortowanie Lib:
+user    0m5.115s
+sys     0m15.817s
+
+Permutacja Sys:
+user    0m0.002s
+sys     0m0.014s
+
+Permutacja Lib:
+user    0m0.003s
+sys     0m0.032s
+-----------------------------
+
+Rozmiar rekordu 4096:
+Liczba rekordow 2000:
+
+Generowanie:
+user    0m0.581s
+sys     0m18.704s
+
+Sortowanie Sys:
+user    0m0.750s
+sys     0m18.707s
+
+Sortowanie Lib:
+user    0m6.296s
+sys     0m24.921s
+
+Permutacja Sys:
+user    0m0.001s
+sys     0m0.020s
+
+Permutacja Lib:
+user    0m0.003s
+sys     0m0.034s
+-----------------------------
+
+Rozmiar rekordu 4096:
+Liczba rekordow 3000:
+
+Generowanie:
+user    0m0.868s
+sys     0m28.008s
+
+Sortowanie Sys:
+user    0m1.781s
+sys     0m46.909s
+
+Sortowanie Lib:
+user    0m13.954s
+sys     0m59.527s
+
+Permutacja Sys:
+user    0m0.002s
+sys     0m0.035s
+
+Permutacja Lib:
+user    0m0.002s
+sys     0m0.051s
+-----------------------------
+
+Rozmiar rekordu 8192:
+Liczba rekordow 1000:
+
+Generowanie:
+user    0m0.648s
+sys     0m18.749s
+
+Sortowanie Sys:
+user    0m0.197s
+sys     0m8.145s
+
+Sortowanie Lib:
+user    0m1.749s
+sys     0m11.338s
+
+Permutacja Sys:
+user    0m0.000s
+sys     0m0.017s
+
+Permutacja Lib:
+user    0m0.003s
+sys     0m0.024s
+-----------------------------
+
+Rozmiar rekordu 8192:
+Liczba rekordow 2000:
+
+Generowanie:
+user    0m1.146s
+sys     0m37.336s
+
+Sortowanie Sys:
+user    0m0.784s
+sys     0m30.042s
+
+Sortowanie Lib:
+user    0m6.569s
+sys     0m40.463s
+
+Permutacja Sys:
+user    0m0.001s
+sys     0m0.037s
+
+Permutacja Lib:
+user    0m0.005s
+sys     0m0.048s
+
+
+
