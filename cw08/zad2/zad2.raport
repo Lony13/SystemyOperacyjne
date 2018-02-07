@@ -1,0 +1,48 @@
+Komputer: Asus X550J
+Procesor: Inter Core i7-4720HQ
+System Operacyjny: Ubuntu 16.04
+Wersja Jądra: 4.8.0-49-generic
+
+Numery sygnałów:
+SIGUSR1 -> 30
+SIGTERM -> 15
+SIGKILL -> 9
+SIGSTOP -> 19
+
+a)
+1. Wysłanie sygnału do procesu, gdy żaden wątek nie ma zamaskowanego tego sygnału:
+SIGUSR1 -> Zakończenie programu z komunikatem "Awaria zasilania"
+SIGTERM -> Zakończenie programu z komunikatem "Zakończony"
+SIGKILL -> Zakończenie programu z komunikatem "Unicestwiony"
+SIGSTOP -> Zakończenie programu z komunikatem "[1]+ Zatrzymano	./maina 10 test.txt 2 klucz 1 19"
+
+2. Wysłanie sygnału do procesu, gdy główny wątek programu ma zamaskowany ten sygnał, a wszystkie pozostałe nie:
+SIGUSR1 -> Zakończenie programu z komunikatem "Awaria zasilania"
+SIGTERM -> Zakończenie programu z komunikatem "Zakończony"
+SIGKILL -> Zakończenie programu z komunikatem "Unicestwiony"
+SIGSTOP -> Zakończenie programu z komunikatem "[2]+ Zatrzymano	./maina 10 test.txt 2 klucz 2 19"
+
+3. Wysłanie sygnału do procesu, gdy wszystkie wątki mają zainstalowaną niestandardową procedurę obsługi przerwania, która wypisuje informację o nadejściu tego sygnału oraz PID i TID danego wątku:
+SIGUSR1 -> Sygnał został przechwycony przez wątek
+SIGTERM -> Sygnał został przechwycony przez wątek
+SIGKILL -> Zakończenie programu z komunikatem "Unicestwiony"
+SIGSTOP -> Zakończenie programu z komunikatem "[3]+ Zatrzymano	./maina 10 test.txt 2 klucz 3 19"
+
+4. Wysłanie sygnału do wątku z zamaskowanym tym sygnałem:
+SIGUSR1 -> Brak reakcji wątku na wysłany sygnał
+SIGTERM -> Brak reakcji wątku na wysłany sygnał
+SIGKILL -> Zakończenie programu z komunikatem "Unicestwiony"
+SIGSTOP -> Zakończenie programu z komunikatem "[4]+ Zatrzymano	./maina 10 test.txt 2 klucz 4 19"
+
+5. Wysłanie sygnału do wątku, w którym zmieniona jest procedura obsługi sygnału, jak przedstawiona w punkcie 3:
+SIGUSR1 -> Wątek do którego wysłano sygnał przechwycił go
+SIGTERM -> Wątek do którego wysłano sygnał przechwycił go
+SIGKILL -> Zakończenie programu z komunikatem "Unicestwiony"
+SIGSTOP -> Zakończenie programu z komunikatem "[5]+ Zatrzymano	./maina 10 test.txt 2 klucz 5 19"
+
+
+b) W jednym z wątków następuje dzielenie przez zero:
+-> Bląd w obliczeniach zmiennoprzecinowych (zrzut pamięci)
+-> Domyślnie powoduje zakończenie procesu oraz zrzut pamięci
+-> Wszytkie pozostałe wątki także zostają zakończone
+
